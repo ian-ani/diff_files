@@ -1,0 +1,15 @@
+{
+	"text": {
+		"title": "Text file comparison",
+		"first_path": "First file",
+		"second_path": "Second file",
+		"run": "Run",
+		"exit": "Exit",
+		"checking_message": "Are you sure?", 
+		"selected_first_message": "> Selected first file path: {first_directory} ",
+		"selected_second_message": "> Selected second file path: {second_directory} ",
+        "start_message": "> Checking differences... ",
+		"comparison_message": "> Differences have been checked. An HTML report will be generated... ",
+		"html_message": "> HTML report generated. "
+	}
+}
