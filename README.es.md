@@ -1,7 +1,5 @@
-# diff_files
-
-![Lang en](https://img.shields.io/badge/lang-en-blue?style=flat&link=https%3A%2F%2Fgithub.com%2Fian-ani%2Fdiff_files%2Fblob%2Fmain%2FREADME.md)
-![Lang es](https://img.shields.io/badge/lang-es-red?style=flat&link=https%3A%2F%2Fgithub.com%2Fian-ani%2Fdiff_files%2Fblob%2Fmain%2FREADME.es.md)
+[![Lang en](https://img.shields.io/badge/lang-en-blue?style=flat)](https://github.com/ian-ani/diff_files/blob/main/README.md)
+[![Lang es](https://img.shields.io/badge/lang-es-red?style=flat)](https://github.com/ian-ani/diff_files/blob/main/README.es.md)
 
 ## Tabla de contenidos
 
@@ -14,7 +12,7 @@
 Programa creado con **Python** para la comprobación de dos archivos de texto.
 Probado con Windows 10.
 
-## Librerías y módulos utilizados
+## Hecho con
 
 - os
 - tkinter

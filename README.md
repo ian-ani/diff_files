@@ -1,9 +1,7 @@
-# diff_files
+[![Lang en](https://img.shields.io/badge/lang-en-blue?style=flat)](https://github.com/ian-ani/diff_files/blob/main/README.md)
+[![Lang es](https://img.shields.io/badge/lang-es-red?style=flat)](https://github.com/ian-ani/diff_files/blob/main/README.es.md)
 
-![Lang en](https://img.shields.io/badge/lang-en-blue?style=flat&link=https%3A%2F%2Fgithub.com%2Fian-ani%2Fdiff_files%2Fblob%2Fmain%2FREADME.md)
-![Lang es](https://img.shields.io/badge/lang-es-red?style=flat&link=https%3A%2F%2Fgithub.com%2Fian-ani%2Fdiff_files%2Fblob%2Fmain%2FREADME.es.md)
-
-## Tabla de contenidos
+## Table of contents
 
 - [About the project](#About-the-project)
 - [Built with](#Built-with)
