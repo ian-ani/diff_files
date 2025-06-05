@@ -6,6 +6,7 @@
 - [About the project](#About-the-project)
 - [Built with](#Built-with)
 - [Usage](#Usage)
+- [To do](#To-Do)
 
 ## About the project
 
@@ -34,3 +35,9 @@ Any plain text file such as: .py, .txt, .json (including Jupyter notebooks), .cs
 ### Won't work with
 
 Any non-plain text file such as: images, videos, Word files, Excel files.
+
+### To-Do
+
+- File sorting and renaming.
+- Add a button to open the output folder and related features.
+- Refactoring and exception handling.

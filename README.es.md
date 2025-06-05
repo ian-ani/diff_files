@@ -6,6 +6,7 @@
 - [Acerca de este repositorio](#Acerca-de-este-repositorio)
 - [Librerías utilizadas](#Librerías-utilizadas)
 - [Uso](#Uso)
+- [Por hacer](#Por-hacer)
 
 ## Acerca de este repositorio
 
@@ -34,3 +35,9 @@ Cualquier archivo de texto plano como: .py, .txt, .json (cuadernos de Jupyter in
 ### No funciona con
 
 Cualquier archivo que no sea de texto plano como: imágenes, vídeos, archivos de Word, archivos de Excel.
+
+### Por hacer
+
+- Ordenar los archivos en directorios con nombres más apropiados.
+- Añadir un botón para que abra la carpeta del *output* y características asociadas.
+- Refactorización de código y manejo de excepciones.

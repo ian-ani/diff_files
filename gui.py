@@ -5,7 +5,7 @@ import tkinter as tk
 from tkinter.messagebox import askyesno
 import json
 
-import backend as bkd
+import core
 import utils.utiles as util
 
 
@@ -49,14 +49,14 @@ class App:
 
 
     def first_path_button(self):
-        self.first_directory = bkd.select_file()
+        self.first_directory = core.select_file()
         self.switch_state()
 
         self.logger += self.text_logger["selected_first_message"].format(first_directory=self.first_directory)+"\n"
 
 
     def second_path_button(self):
-        self.second_directory = bkd.select_file()
+        self.second_directory = core.select_file()
         self.switch_state()
 
         self.logger += self.text_logger["selected_second_message"].format(second_directory=self.second_directory)+"\n"
@@ -67,10 +67,10 @@ class App:
 
         if answer_execute:
             self.logger += self.text_logger["start_message"]+"\n"
-            html_diff = bkd.read_files(self.first_directory, self.second_directory)
+            html_diff = core.read_files(self.first_directory, self.second_directory)
             self.logger += self.text_logger["comparison_message"]+"\n"
-            output_directory = bkd.create_output_folder()
-            bkd.save_file(output_directory, html_diff)
+            output_directory = core.create_output_folder()
+            core.save_file(output_directory, html_diff)
             self.logger += self.text_logger["html_message"]+"\n"
         else:
             pass
