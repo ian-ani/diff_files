@@ -6,7 +6,6 @@
 - [Acerca de este repositorio](#Acerca-de-este-repositorio)
 - [Librerías utilizadas](#Librerías-utilizadas)
 - [Uso](#Uso)
-- [Por hacer](#Por-hacer)
 
 ## Acerca de este repositorio
 
@@ -22,11 +21,13 @@ Probado con Windows 10.
 
 ## Uso
 
-1. Lanzar **main.py**, preferiblemente como un proyecto y no como un archivo suelto.
+1. Lanzar **main.py**.
 2. Hacer clic en **First file** para añadir un primer archivo a comprobar.
 3. Hacer clic en **Second file** para añadir un segundo archivo a comprobar.
-4. Hacer clic en **Run** para que se haga la comprobación de ambos archivos y sus diferencias.
-5. Ir al directorio **output** y abrir el archivo **diff.html** para ver las diferencias.
+4. Hacer clic en **Save** para elegir donde guardar el archivo, si no se proporciona ninguna ruta 
+por defecto creará un directorio con el nombre de **output** y un archivo con el nombre **diff.html**.
+5. Hacer clic en **Run** para que se haga la comprobación de ambos archivos y sus diferencias.
+6. Comprobar el archivo HTML de reporte.
 
 ### Funciona con
 
@@ -35,9 +36,3 @@ Cualquier archivo de texto plano como: .py, .txt, .json (cuadernos de Jupyter in
 ### No funciona con
 
 Cualquier archivo que no sea de texto plano como: imágenes, vídeos, archivos de Word, archivos de Excel.
-
-### Por hacer
-
-- Ordenar los archivos en directorios con nombres más apropiados.
-- Añadir un botón para que abra la carpeta del *output* y características asociadas.
-- Refactorización de código y manejo de excepciones.

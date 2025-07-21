@@ -6,12 +6,11 @@
 - [About the project](#About-the-project)
 - [Built with](#Built-with)
 - [Usage](#Usage)
-- [To do](#To-Do)
 
 ## About the project
 
 Made with **Python** for checking two text files.
-Tested with Windows 10.
+Tested on Windows 10.
 
 ## Built with
 
@@ -22,11 +21,12 @@ Tested with Windows 10.
 
 ## Usage
 
-1. Run **main.py**, preferably as a project.
-2. Click on **First file** to add a first file to check.
-3. Click on **Second file** to add a second file to check.
-4. Click on **Run** to check both files.
-5. Go to the **output** directory and open **diff.html** file to see the differences.
+1. Run **main.py**.
+2. Click on **First file** to add a first file.
+3. Click on **Second file** to add a second file.
+4. Click on **Save** to choose a save location, if none is chosen it will create an **output** directory by default and a file named **diff.html**.
+5. Click on **Run** to check and compare both files.
+6. Check the HTML report file.
 
 ### Works with
 

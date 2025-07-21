@@ -1,4 +1,4 @@
-# PYTHON VERSION: 3.11.9
+# PYTHON VERSION: 3.12.0
 
 import tkinter as tk
 from tkinter import messagebox
@@ -19,18 +19,15 @@ def get_button(window, text, color, command, fg='white'):
 
     return button
 
-
 def get_img_label(window):
     label = tk.Label(window)
     label.grid(row=0, column=0)
     return label
 
-
 def get_text_label(window, text):
     label = tk.Label(window, text=text)
     label.config(font=("sans-serif", 21), justify="left")
     return label
-
 
 def get_entry_text(window):
     inputtxt = tk.Text(window,
@@ -38,8 +35,5 @@ def get_entry_text(window):
                        width=15, font=("Arial", 32))
     return inputtxt
 
-
 def msg_box(title, description):
     messagebox.showinfo(title, description)
-
-

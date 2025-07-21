@@ -1,0 +1,18 @@
+{
+	"text": {
+		"title": "Text file comparison",
+		"first_file": "First file",
+		"second_file": "Second file",
+		"save": "Save",
+		"run": "Run",
+		"exit": "Exit",
+		"checking": "Are you sure?", 
+		"selected_first_message": "> Selected first file: {directory} ",
+		"selected_second_message": "> Selected second file: {directory} ",
+		"selected_output_file": "> File will be saved on: {output_file}",
+        "start_checking": "> Checking differences... ",
+		"end_checking": "> Differences have been checked. An HTML report will be generated... ",
+		"generated_report": "> HTML report generated. ",
+		"wrong_format": "> Wrong format. Only plain-text files supported. "
+	}
+}
