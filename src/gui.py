@@ -27,14 +27,22 @@ class App:
         self.second_file = None
         self.output_file = None
 
-        # Main window
+        # Setups
+        self.setup_main_window()
+        self.setup_buttons()
+        self.setup_logger()
+        self.create_log()
+
+    # Main window
+    def setup_main_window(self):
         self.main_window = tk.Tk()
         self.main_window.geometry(c.WINDOW_GEOMETRY)
         self.main_window.title(self.ui_text["title"])
         self.main_window.configure(bg=c.WINDOW_BG_COLOR)
         self.main_window.resizable(False, False)
 
-        # Buttons
+    # Buttons
+    def setup_buttons(self):
         self.first_main_window = util.get_button(self.main_window, self.ui_text["first_file"], c.BUTTON_COLOR[0], 
                                                 lambda: self.get_file_button("selected_first_message", "first_file"))
         self.first_main_window.place(x=c.START_X, y=c.START_Y)
@@ -50,13 +58,13 @@ class App:
         self.run_main_window.config(state=tk.DISABLED)
         self.run_main_window.place(x=c.START_X, y=c.START_Y + c.STEP_Y * 3)
 
-        # Logger
+    # Logger
+    def setup_logger(self):
         self.label_border = tk.Frame(self.main_window, bg=c.LOGGER_BORDER_COLOR, relief="sunken", bd=2)
         self.label_text = tk.Label(self.label_border, font=(c.FONT_FAMILY, c.FONT_SIZE), justify="left", anchor="nw", width=c.LOGGER_WIDTH, 
                                    height=c.LOGGER_HEIGHT, bg=c.FONT_BG_COLOR, fg=c.FONT_COLOR)
         self.label_text.pack(fill="both", expand=True, padx=1, pady=1)
         self.label_border.pack(anchor="nw", padx=c.PADDING, pady=c.PADDING)
-        self.create_log()
 
     # Asks user which file to compare
     def get_file_button(self, key, number):
